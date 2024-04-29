@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+
+
+
+
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:720px )" srcset="Imagens/foto-P.png" type="image/png">
+
+        <source media="(max-width:1020px )" srcset="Imagens/foto-M.png" type="image/png">
+
+        <img src="Imagens/foto-G.png" alt="">
+    </picture>
+
+    <h1>Reproduzindo Som</h1  >
+
+    <audio controls preload="metadata">
+        <source src="midia/putting.mp3." type="audio/mpeg">
+        <source src="midia/putting.ogg" type="audio/ogg">
+        
+        
+    </audio>
+
+    <h1>Vamos ver vídeos</h1>
+
+    <video controls width="500" poster="Imagens/codigo-1024x512.png" >
+        <source src="midia/Video-Code-hand.mp4" type="video/mp4">
+
+        <source src="midia/Video-Code-w.mkv" type="audio/mkv">
+
+        <p>Seu dispositivo não é compativel com reprodução de vídeos</p>
+
+
+    </video>
+    <p>Hospedado no seu desktop</p>
+
+    <h1>Vamor ver vídeos do Yt</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/f-wW0PuO4P4?si=MY45Dkzmwh9TrcVd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>Está hospedado no yt</p>
+
+    <h1>Vamos ver vídeos do VIMEO</h1>
+
+    <iframe src="https://player.vimeo.com/video/196347630?h=abc5545772&color=ffffff&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p>Esta hospedado no vimeo</p>
+
+
+    
+
+</body>
+</html>

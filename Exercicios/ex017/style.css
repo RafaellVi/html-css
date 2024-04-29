@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color:azure;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(47, 207, 154);
+}
+
+a::after {
+    content: "←";
+}
+
+a::before {
+    content: "→";
+}
