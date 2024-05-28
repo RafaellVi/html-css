@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#container {
+    position: relative;
+}
+
+#bloco1 {
+    position: absolute;
+
+    top:400px;
+    left:350px;
+}
+
+#bloco2 {
+    position: absolute;
+    top:365px;
+    left: 443px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+table#bloco1 {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#bloco2 {
+    width: 35.6%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#bloco3 {
+    position: absolute;
+    width: 21.5%;
+    border-collapse: collapse;
+    text-align: center;
+
+    top:20.6em;
+    left:535.5px;
+}
+
+#bloco4 {
+    position: absolute;
+    width: 7.3%;
+    border-collapse: collapse;
+    text-align: center;
+
+    top:18.4em;
+    left:630px;
+
+}
+
+td {
+    border: 2px solid black;
+    padding: 8px;
+}
+
