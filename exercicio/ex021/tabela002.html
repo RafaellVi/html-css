@@ -15,6 +15,10 @@
 
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(214, 213, 213, 0.877);
+        }
+
         th {
             background-color: #EAECF0;
         }
@@ -23,10 +27,6 @@
             border: 1px solid #9ea1a3;
             padding: 5px;
             
-        }
-
-        td {
-            background-color: #e7e7e7;
         }
 
         img {
@@ -49,16 +49,26 @@
         a:hover {
             text-decoration: underline;
         }
+
+        caption {
+            font-size: 1.4em;
+            background-color: #568bad;
+            color: #EAECF0;
+            text-shadow: 1px 1px 1px black;
+        }
+
+
     </style>
 </head>
 <body>
     
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Unidade Federativa</th>
-                <th>População</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População</th>
             </tr>
 
         </thead>
@@ -92,6 +102,36 @@
                 <td class="center">5</td>
                 <td><img src="logo/Bandeira_do_Paraná.svg.webp" alt=""><a href="#">Paraná</a></td>
                 <td class="num">11 444 380	</td>
+            </tr>
+
+            <tr>
+                <td class="center">6</td>
+                <td><img src="logo/Bandeira_do_Rio_Grande_do_Sul.svg.webp" alt=""><a href="#">Rio Grande Do Sul</a></td>
+                <td class="num">10 882 965</td>
+            </tr>
+
+            <tr>
+                <td class="center">7</td>
+                <td><img src="logo/Bandeira_de_Pernambuco.svg.webp" alt=""><a href="#">Pernambuco</a></td>
+                <td class="num">9 058 931	</td>
+            </tr>
+
+            <tr>
+                <td class="center">8</td>
+                <td><img src="logo/Bandeira_do_Ceará.svg.webp" alt=""><a href="#">Ceará</a></td>
+                <td class="num">8 794 957</td>
+            </tr>
+
+            <tr>
+                <td class="center">9</td>
+                <td><img src="logo/Bandeira_do_Pará.svg.png" alt=""><a href="#">Pará</a></td>
+                <td class="num">8 121 025</td>
+            </tr>
+
+            <tr>
+                <td class="center">10</td>
+                <td><img src="logo/Bandeira_de_Santa_Catarina.svg.webp" alt=""><a href="#">Santa Catarina</a></td>
+                <td class="num">7 610 361</td>
             </tr>
 
         </tbody>
